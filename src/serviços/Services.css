@@ -1,0 +1,31 @@
+.home {
+    width: 100%;
+}
+.home h3{
+    text-align: center;
+    margin: 2rem;
+}
+.home {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.b1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.esq{
+
+}
+
+.dir{
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .home .container-carrosel .container-side{
+      flex-direction: row;
+    }
+}

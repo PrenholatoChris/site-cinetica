@@ -1,10 +1,17 @@
 .footer {
     display: flex;
     background-color: #380C0F;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
     height: 60px;
+    padding: 0 4px;
+
 }
 
-a{color: #FFFF;}
+.footer a{
+    display: block;
+    padding: 8px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
