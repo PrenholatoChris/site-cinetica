@@ -1,23 +1,38 @@
 .home {
     width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.home .header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
 }
 
 .home section{
     display: flex;
-    justify-content: center;    
+    justify-content: center;
 }
 
 .home main {
-    width: 60%;
+    margin-top: 60px;
+    width: 70%;
 }
 .home main > *{
-    margin: 5vh 0;
+    margin: 10vh 0;
 }
 
 .home h3{
     text-align: center;
 }
 
+.home #tsparticles{
+    width: 100%;
+    height: 1000vh;
+    position: absolute;
+    z-index: -1;
+} 
 .home .container-carrosel{
     display: flex;
     flex-wrap: wrap;
@@ -31,22 +46,10 @@
     justify-content: space-between;
 }
 
-
-.home .container-carrosel .carrosel{
-    width: 875px;
+.home .container-carrosel img{
+    /* width: 500px; */
     height: 300px;
-}
-
-.home .carrosel img{
-    width: 875px;
-    height: 300px;
-    object-fit: cover;
-}
-
-.home {
-    display: block;
-    justify-content: center;
-    align-items: center;
+    opacity: 90%;
 }
 
 .home .destaques{
@@ -55,8 +58,17 @@
     justify-content: space-between;
 }
 
+.home .destaques .destaque{
+    width: 350px;
+    padding: 16px;
+    border-radius: 16px;
+    border: 2px rgb(221, 205, 205) solid;
+    display: flex;
+    flex-direction: column;
+}
+
 .home .destaques .destaque p{
-    width: 300px;
+    width: 100%;
     text-align: justify;
 }
 
@@ -69,5 +81,15 @@
         width: 100%;
         flex-direction: row;
         justify-content: space-between;
+        
     }
+
+    .home .container-carrosel{
+        justify-content: center;
+    }
+
+    .home .container-carrosel img{
+        height: 200px;
+    }
+    
 }

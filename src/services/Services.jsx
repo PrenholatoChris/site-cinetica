@@ -1,19 +1,31 @@
 //import { useState } from 'react'
-import Header from '../header/Header'
-import Footer from '../footer/Footer'
 import './Services.css'
-import ServicesButton from '../componentes/ServicesButton'
-
-
-import {services} from '../assets/dados.js'
+// import ServicesButton from '../componentes/ServicesButton'
 
 export default function Services(){
+
+    const site1 = {
+        nome: "site",
+        text1: "abcdefgh",
+        text2: "ojdhfdgfdhfdsf",
+        img1: "./logo.svg",
+        video: "./carrosel.jps",
+        text3: "jfhsdgf9ajfdfdsfisdf",
+        img2: "./logo.svg",
+    }
+    var services = []
+
+    
+    services = [site1]
+
+
+
     return(
-        <div className='home'>
-            <Header/>
-            <main>
+        <div className='services'>
+            
+             <main>
                 <div>
-                    <ServicesButton/>
+                    {/* <ServicesButton/> */}
                 </div>
                 <div className='b1'>
                     <div className='esq'>
@@ -35,11 +47,11 @@ export default function Services(){
                         </p>
                     </div>
                     <div className='dir'>
-                        <img src={services.img} alt="" />
+                        <img src={services[0].img1} alt="" />
                     </div>
                 </div>
                 <div className='videoService'>
-                    <video src={video}></video>
+                    <video src={services[0].video}></video>
                 </div>
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
@@ -60,7 +72,7 @@ export default function Services(){
                     voluptates adipisci hic praesentium dolorem!
                 </p>
                 <div className='etapasServiceImg'>
-                    <img src={img2} alt="" />
+                    <img src={services[0].img2} alt="" />
                 </div>
                 <div className='etapasService'>
                     <h2>Etapa 1</h2>
@@ -113,7 +125,6 @@ export default function Services(){
                     </p>
                 </div>
             </main>
-            <Footer/>
         </div>
     )
 }
