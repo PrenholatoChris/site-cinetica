@@ -1,28 +1,32 @@
-import cadeadoImg from "../assets/cadeado.png"
+import cadeadoImg from '../assets/cadeado.png'
+import logoWhite from "../assets/cinetica2.png"
+import { Link } from "react-router-dom";
 import "./Header.css"
 
 export default function Header(){
     return(
-        <div className="header">
-            <a href="home">Home</a>
-            <a href="contato">Contato</a>
-            <a href="sobre">Sobre</a>
-            <a href="serviços">Serviços</a>
-            <a href="cadeado">
-                <img src={cadeadoImg} alt="Imagem de um cadeado" />
-            </a>
+        <div className="headerRed">
+            <div className="headerGray">
+                <div className='logoWhite'>
+                    <img src={logoWhite} alt="" />    
+                </div>
+                <Link to="/">
+                    <p>Home</p>
+                </Link>
+                <Link to="/services">
+                    <p>Serviços</p>
+                </Link>
+                <Link to="/about">
+                    <p>Sobre</p>
+                </Link>
+                <Link to="/contact">
+                    <p>Contatos</p>
+                </Link>
+                <Link to="">
+                    <img src={cadeadoImg} alt="" />
+                </Link>
+            </div>
+            
         </div>
-    )
-}
-
-export function teste(){
-    return(
-        <h1>Cetabu</h1>
-    )
-}
-
-export function teste1(){
-    return(
-        <h1>Cetabucetaooo</h1>
     )
 }

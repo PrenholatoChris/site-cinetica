@@ -1,0 +1,43 @@
+.cardServiceBackground{
+    width: 200px;
+    height: 140px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardServiceBlackLine{
+    width: 200px;
+    height: 6px;
+    background-color: black;
+}
+
+.cardServiceRedLine{
+    width: 200px;
+    height: 20px;
+    background-color: #B20909;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.cardServiceTexto {
+    display: flex;
+    justify-content: center;
+}
+
+.cardServiceTexto p{
+    margin: 4px 0;
+}
+
+.cardServiceIcon{
+    display: flex;
+    justify-content: center;
+}
+.cardServiceIcon img{
+    width: 60px;
+}
+
+.cardServiceTexto p{
+    color: #B20909;
+}

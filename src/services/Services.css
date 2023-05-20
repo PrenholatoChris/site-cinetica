@@ -1,3 +1,10 @@
+.services #tsparticles{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+} 
+
 .services {
     width: 100%;
 }
@@ -10,7 +17,70 @@
     justify-content: center;
     align-items: center;
 }
+.servicesBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+/* Titulo em Services */
+.servicesTitle{
+    background-color: #B20909;
+    width: 60%;
+    border-radius: 10px;
+    margin: 2% 0;
+}
+.servicesTitle h1{
+    color: #FFFFFF;
+    text-align: center;
+}
+.servicesCardBlack2{
+    width: 100%;
+    height: 10px;
+    background: #000000;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* servicesCard */
+.servicesCardBody{
+    width: 80%;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin: 1%;
+}
+.servicesCardRed{
+    width: 100%;
+    height: 20px;
+    background: #B20909;
+    border-radius: 0px 0px 10px 10px;
+}
+.servicesCardBlack{
+    width: 100%;
+    height: 10px;
+    background: #000000;
+}
+.servicesCardTitle{
+   margin: 30px 20px 20px 20px; 
+}
+.servicesCardTitle p{
+    font-weight: 600;
+    font-size: larger;
+}
+.servicesCardInfo{
+    display: flex;
+    justify-content: center;
+    margin: 20px 30px 20px 20px;
+}
+.servicesCardInfo div li{
+    text-align: justify;
+}
+.servicesCardInfo div p{
+    text-align: justify;
+}
+.servicesCardInfo img{
+    width: 60%;
+    border-radius: 20px;
+}
 
 
 @media only screen and (max-width: 600px) {

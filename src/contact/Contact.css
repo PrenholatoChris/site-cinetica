@@ -1,0 +1,62 @@
+.Contact #tsparticles{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+} 
+
+.Contact h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: brown;
+    margin-bottom: 3rem;
+}
+
+.Contact .container {
+    display: flex;
+    justify-content: center;
+    gap: 25%;
+    margin-bottom: 5rem;
+}
+
+.Contact .container nav > *{
+    margin-top: 2rem;
+}
+.Contact .container nav div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.Contact .container nav div img {
+    width: 50px;
+
+}
+
+.Contact .container nav div a{
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+.Contact .container nav button{
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px #812727 solid;
+    color: white;
+    font-size: 1.2rem;
+    background-color: #8B0808;
+}
+
+
+
+.Contact .container .map{
+    width: 500px;
+    height: 500px;
+    border: 1.2rem rgba(240, 248, 255, 0.8) solid;
+    border-radius: 1rem;
+}
+
+.Contact .container .map iframe{
+    opacity: 1;
+}
