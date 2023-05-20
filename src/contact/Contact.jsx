@@ -25,9 +25,7 @@ export default function Contact(){
                         Agende seu Horário
                     </button>
                 </nav>
-                <div className="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3730.719237328242!2d-41.53864078824516!3d-20.762170864682783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbbebc41cf68f0f%3A0x769a09325b3ebaa2!2sCin%C3%A9tica%20Jr.!5e0!3m2!1spt-BR!2sbr!4v1683513114139!5m2!1spt-BR!2sbr" width={500} height={500} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3730.719237328242!2d-41.53864078824516!3d-20.762170864682783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbbebc41cf68f0f%3A0x769a09325b3ebaa2!2sCin%C3%A9tica%20Jr.!5e0!3m2!1spt-BR!2sbr!4v1683513114139!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <Footer/>
         </div>

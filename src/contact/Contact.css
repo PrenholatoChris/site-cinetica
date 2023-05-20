@@ -16,6 +16,7 @@
     display: flex;
     justify-content: center;
     gap: 25%;
+    flex-wrap: wrap;
     margin-bottom: 5rem;
 }
 
@@ -46,17 +47,19 @@
     color: white;
     font-size: 1.2rem;
     background-color: #8B0808;
+    margin-bottom: 3rem;
 }
 
-
-
-.Contact .container .map{
-    width: 500px;
-    height: 500px;
-    border: 1.2rem rgba(240, 248, 255, 0.8) solid;
-    border-radius: 1rem;
-}
-
-.Contact .container .map iframe{
+.Contact .container iframe{
     opacity: 1;
+    width: 70%;
+    height: 500px;
+
+    max-width: 700px;
+
+    min-width: 200px;
+    min-height: 200px;
+
+    border: 0.5rem rgba(221, 113, 35, 90%) solid;
+    border-radius: 0.5rem;
 }

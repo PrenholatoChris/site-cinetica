@@ -16,20 +16,24 @@
 }    
 
 .About #galera{
-    width: 400px;
-    height: 225px;
+    width: 450px;
+    height: 250px;
     object-fit: cover;
 }
 
 .About .container{
     display: flex;
-    width: 70%;
+    max-width: 80%;
+    flex-wrap: wrap;
+    gap: 3rem;
     justify-content: center;
 }
 
 .About .container p{
-    width: 50%;
-    margin-left: 2rem;
+    max-width: 50%;
+    min-width: 350px;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .About ul{
@@ -40,18 +44,38 @@
     justify-content: space-around;
 }
 
-
 .About .info{
-    /* display: flex; */
-    width: 65%;
-    justify-content: space-between;
+    display: flex;
+    max-width: 80%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 3rem 0;
 }
 
 .About .info div{
     text-align: center;
+    background-color: rgba(221, 113, 35, 50%);
+    border-radius: 20px;
+    border: gray 1px solid;
+    max-width: 30%;
+    min-width: 300px;
+    /* margin: 2rem 1rem; */
 }
 
+
+.About .info div h2{
+    color: #8B0808;
+    font-size: 2rem;
+}
 .About .info p{
-    margin-bottom: 3rem;
-    margin-top: 0;
-}    
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0 24px;
+}
+
+@media (max-width: 800px) {
+    /* .About .container p{
+        max-width: 80%;
+    } */
+}
