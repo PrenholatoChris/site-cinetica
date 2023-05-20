@@ -1,5 +1,5 @@
 import "./Contact.css"
-import instagramImg from '../assets/instagram.svg'
+import instagramImg from '../assets/insta.svg'
 import gmailImg from '../assets/gmail.png'
 import Background from '../componentes/Backround/Background'
 import Header from "../header/Header"
