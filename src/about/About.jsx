@@ -10,10 +10,13 @@ export default function About(){
                 <Background/>
                 <Header/>
                 <h1>Sobre nós</h1>
-                <div className="container">
-                    <img id="galera" src={galeraImg} alt="" />
-                    <p>Um breve texto descrevendo um pouco sobre a cinética e seus integrantes de forma que faça uma apresentação legal para que possamos botar o texto no site da cinética tal taltal que não sei Lorem ipsum Um breve texto descrevendo um pouco sobre a cinética e seus integrantes de forma que faça uma apresentação legal para que possamos botar o texto no site da cinética tal taltal que não sei Lorem ipsum </p>
+                <div className="red-container">
+                    <div className="container">
+                        <img id="galera" src={galeraImg} alt="" />
+                        <p>Um breve texto descrevendo um pouco sobre a cinética e seus integrantes de forma que faça uma apresentação legal para que possamos botar o texto no site da cinética tal taltal que não sei Lorem ipsum Um breve texto descrevendo um pouco sobre a cinética e seus integrantes de forma que faça uma apresentação legal para que possamos botar o texto no site da cinética tal taltal que não sei Lorem ipsum </p>
+                    </div>
                 </div>
+                
 
                 {/* <ul>
                     <li>80 Projeots</li>
